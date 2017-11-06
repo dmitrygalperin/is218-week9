@@ -1,0 +1,72 @@
+<?php
+class User {
+    private $id;
+    private $email;
+    private $first_name;
+    private $last_name;
+    private $phone;
+    private $birthday;
+    private $gender;
+    private $password;
+
+    //Getters
+    public get_id() {
+        return $this->id;
+    }
+    public get_email() {
+        return $this->email;
+    }
+    public get_first_name() {
+        return $this->first_name;
+    }
+    public get_last_name() {
+        return $this->last_name;
+    }
+    public get_phone() {
+        return $this->phone;
+    }
+    public get_birthday() {
+        return $this->birthday;
+    }
+    public get_gender() {
+        return $this->gender;
+    }
+    public get_password() {
+        return $this->password;
+    }
+
+    //Setters
+    public set_id($id) {
+        $this->id = $id;
+        return $this;
+    }
+    public set_email($email) {
+        $this->email = $email;
+        return $this;
+    }
+    public set_first_name($first_name) {
+        $this->first_name = $first_name;
+        return $this;
+    }
+    public set_last_name($last_name) {
+        $this->last_name = $last_name;
+        return $this;
+    }
+    public set_phone($phone) {
+        $this->phone = $phone;
+        return $this;
+    }
+    public set_birthday($birthday) {
+        $this->birthday = $birthday;
+        return $this;
+    }
+    public set_gender($gender) {
+        $this->gender = $gender;
+        return $this;
+    }
+    public set_password($password) {
+        $this->password = $password;
+        return $this;
+    }
+}
+?>
